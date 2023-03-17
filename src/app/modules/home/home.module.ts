@@ -8,6 +8,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { MaterialComponentsModule } from 'src/app/material/material-components/material-components.module';
+
 @NgModule({
   declarations: [
     HomeComponent
@@ -17,7 +19,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeRoutingModule,
     MatToolbarModule,
     MatInputModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MaterialComponentsModule
   ]
 })
 export class HomeModule { }
