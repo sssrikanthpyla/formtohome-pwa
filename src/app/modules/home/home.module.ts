@@ -9,10 +9,14 @@ import {MatInputModule} from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { MaterialComponentsModule } from 'src/app/material/material-components/material-components.module';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     CommonModule,
