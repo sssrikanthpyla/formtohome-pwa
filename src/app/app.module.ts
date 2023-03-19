@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { CommonComponentsModule } from './modules/common-components/common-components.module';
 import { MaterialComponentsModule } from './material/material-components/material-components.module';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { MaterialComponentsModule } from './material/material-components/materia
     BrowserModule,
     AppRoutingModule,
     MaterialComponentsModule,
+    CommonComponentsModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable

@@ -11,6 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialComponentsModule } from 'src/app/material/material-components/material-components.module';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { CommonComponentsModule } from '../common-components/common-components.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SignupComponent } from './signup/signup.component';
     MatToolbarModule,
     MatInputModule,
     ReactiveFormsModule,
-    MaterialComponentsModule
+    MaterialComponentsModule,
+    CommonComponentsModule
   ]
 })
 export class HomeModule { }
