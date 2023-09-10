@@ -1,0 +1,30 @@
+:host {
+    display: block;
+    width: 100vw;
+    background-color: #596ae9;
+    height: 60px;
+
+    .container-holder {
+        .menu-list {
+            display: flex;
+            flex-direction: row;
+            .items {
+                margin-left: 100px;
+                margin-top: 20px;
+                .item {
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+
+            .login-container {
+                margin-top: 20px;
+                margin-left: 75vw;
+                
+                .login-item {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

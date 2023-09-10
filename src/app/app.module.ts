@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CommonComponentsModule } from './modules/common-components/common-components.module';
 import { MaterialComponentsModule } from './material/material-components/material-components.module';
+import { HeaderComponent } from './modules/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

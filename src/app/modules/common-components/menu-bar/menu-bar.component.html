@@ -2,9 +2,15 @@
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>My App</span>
+    <span>FormToHome</span>
   
     <span class="spacer"></span>
+
+    <button mat-button [matMenuTriggerFor]="belowMenu">Home</button>
+    <mat-menu #belowMenu="matMenu" yPosition="below">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
   
     <button mat-icon-button>
       <mat-icon>search</mat-icon>
